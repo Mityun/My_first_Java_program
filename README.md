@@ -1,3 +1,3 @@
-# My_first_Java_program
+# Samsung-IT-school
 Try 1
 F*cking Java... I ll do my best to earn gold certificate))0)
