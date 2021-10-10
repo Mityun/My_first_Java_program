@@ -8,3 +8,4 @@ public class next_even {
         System.out.println((num + 2) - num % 2);
     }
 }
+
