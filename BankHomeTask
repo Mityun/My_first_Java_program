@@ -1,0 +1,22 @@
+Bank system from my hometask:
+
+Design assignment.
+The largest national bank "Bank" is developing a system of electronic queues in a branch that has not yet closed due to the pandemic.
+
+To do this, an information terminal for issuing coupons and a scoreboard with information about the status of the queue are installed in the halls of the center, and all operator workstations ("windows") are numbered and equipped with call buttons
+
+In the information terminal, the applicant selects the purpose of the visit and receives a ticket with a number in the queue. The center operates in two modes: accepts visa applications before lunch, issues documents with the results of the examination after lunch. Depending on the current mode of operation, the list of visit goals in the terminal looks different.
+They receive clients before lunch:
+- credit
+- debit and credit cards
+- payments
+- business
+
+After lunch, it is only possible to issue certificates:
+- receipt of documents
+
+The scoreboard shows the current status of the queue: a list of two columns. In the first column, the coupon number is displayed, in the second - the number of the "window" when the applicant's queue arrives or his planned waiting time in the queue. The planned time is calculated statistically based on the average speed of the queue.
+
+For the "window", it is determined which categories of requests (purposes of the visit) can be processed by the operator. It is also equipped with a "Call the applicant" button. When the applicant is called, a ticket with the currently maximum waiting time is selected among all the "windows" categories and the status of this ticket changes on the scoreboard: the number of the "window" that called appears in the second column.
+
+Your goal is to describe a system of classes and interfaces that allow you to solve the problem. Think over the composition of fields, methods, their signatures and return values, but not determine their behavior. That is, the implementations of all methods should remain empty.
