@@ -1,0 +1,75 @@
+<EducationSystem>
+    <ExactScience>
+        <!--
+        Точные науки (англ. Exact sciences) — отрасли науки, в которых изучают количественно точные закономерности
+         и используются строгие методы проверки гипотез, основанные на воспроизводимых экспериментах и
+         строгих логических рассуждениях.
+        -->
+        <Math>
+            <Program
+                    description="Description of physics program"
+                    formulas="a * b + c * b = b(c + a)/etc"
+            >
+            </Program>
+
+        </Math>
+
+        <physics>
+            <Program
+                    description="Description of physics program"
+                    formulas="E=mc**2/etc"
+                    >
+            </Program>
+
+        </physics>
+    </ExactScience>
+
+    <NaturalScience>
+        <!--
+        Есте́ственные нау́ки (устар. естественная история, от «естество» или природа) — науки, изучающие природу
+        (понимаемую в широком смысле как материальный мир Вселенной).
+        -->
+        <Biology>
+            <Program
+                    description="Description of biology program"
+                    speciesOfAnimals="cats/dogs/etc"
+                    kingdom="Animals/etc"
+                >
+
+            </Program>
+        </Biology>
+
+        <Chemistry>
+            <Program
+                    description="Description of chemistry program"
+                    reactions="Types of reactions"
+            >
+            </Program>
+        </Chemistry>
+
+    </NaturalScience>
+
+    <HumanitarianSciences>
+        <!--
+        Гуманита́рные нау́ки (от humanus — человеческий, homo — человек) — науки, специализирующиеся на человеке
+        и его жизнедеятельности в обществе.
+        -->
+        <Language>
+            <Program
+                    description="Description of language program"
+                    whatLanguage="russian/etc">
+            </Program>
+        </Language>
+
+        <Literature>
+            <Program
+                    description="Description of literature program"
+                    whatLanguage="russian/etc"
+                    genre="Romance/Comedy/etc"
+            >
+            </Program>
+        </Literature>
+
+
+    </HumanitarianSciences>
+</EducationSystem>
